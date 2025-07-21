@@ -1,0 +1,32 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://permnyu.github.io/iiif-ganba-note/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Ganba Note",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://permnyu.github.io/iiif-ganba-note/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "height": 262,
+          "width": 390,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://permnyu.github.io/iiif-ganba-note/canvas/1",
+              "resource": {
+                "@id": "https://permnyu.github.io/iiif-ganba-note/ganba.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 262,
+                "width": 390
+              }
+            }
+          ]
+        }
+      ]
+   
